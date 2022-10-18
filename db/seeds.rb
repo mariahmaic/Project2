@@ -20,4 +20,5 @@ end
   names = Name.new(
     name: Faker::Name.name
   )
+  names.save
 end
