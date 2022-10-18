@@ -1,5 +1,5 @@
 class StudioGhibli < ApplicationRecord
-  def index
-    @home = Home.all
-  end
+  validates :character, presence: true
+  validates :quote, presence:  true
+  validates :movie, presence:  true
 end
