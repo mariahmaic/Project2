@@ -13,5 +13,14 @@
     <% end %>
   </ul>
 </div>
+<div class="d-flex align-items-center justify-content-center">
+  <ul>
+    <% @names.each do |name|%>
+      <li>
+        <%= link_to name.name%>
+      </li>
+    <% end %>
+  </ul>
+</div>
 
 <%= will_paginate @studioghiblis, renderer: WillPaginate::ActionView::BootstrapLinkRenderer %>

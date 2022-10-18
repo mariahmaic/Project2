@@ -15,3 +15,9 @@
   )
   studioghiblis.save
 end
+
+200.times do
+  names = Name.new(
+    name: Faker::Name.name
+  )
+end
