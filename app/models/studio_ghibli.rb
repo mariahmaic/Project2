@@ -1,0 +1,2 @@
+class StudioGhibli < ApplicationRecord
+end
