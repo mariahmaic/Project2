@@ -1,9 +1,13 @@
-<h1>Studio Ghibli</h1>
+<div class="d-flex align-items-center justify-content-center">
+  <h1>Studio Ghibli</h1>
+</div>
 
-<ul>
-  <% @studioghiblis.each do |studioghibli|%>
-    <li>
-      <%= studioghibli.character%>
-    </li>
-  <% end %>
-</ul>
+<div class="d-flex align-items-center justify-content-center">
+  <ul>
+    <% @studioghiblis.each do |studioghibli|%>
+      <li>
+        <%= studioghibli.character%>
+      </li>
+    <% end %>
+  </ul>
+</div>
